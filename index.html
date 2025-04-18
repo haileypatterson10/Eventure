@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Showcase | UI/UX Eventure Capstone Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">AppName</a>
+            <button class="menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#competitors">Competitors</a></li>
+                <li><a href="#interviews">User Interviews</a></li>
+                <li><a href="#personas">Personas</a></li>
+                <li><a href="#wireframes-low">Wireframes</a></li>
+                <li><a href="#user-tests">User Tests</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#conclusions">Conclusions</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#demo">Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Redefining the Experience</h1>
+            <p>A comprehensive UI/UX capstone project that delivers an intuitive solution to modern challenges.</p>
+            <div class="hero-buttons">
+                <a href="#problem" class="btn">Explore Project</a>
+                <a href="#demo" class="btn" style="background-color: transparent; border: 1px solid var(--apple-blue); color: var(--apple-blue);">View Demo</a>
+            </div>
+        </div>
+        <img src="/api/placeholder/800/600" alt="App preview" class="hero-image">
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section id="problem" class="problem-statement section">
+        <div class="container">
+            <h2 class="section-title">Problem Statement</h2>
+            <div class="problem-container">
+                <p>Users are struggling with [specific problem] which impacts their ability to [specific outcome]. Current solutions in the market lack [specific gap], creating an opportunity for a better, more intuitive approach.</p>
+                <p>Our research identified three core problems that users face:</p>
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Problem 1</h3>
+                            <p>Detail the first major problem that your application aims to solve. Explain how this affects users and why existing solutions fall short.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Problem 2</h3>
+                            <p>Describe the second key challenge that users currently face. Explain the impact this has on their experience and productivity.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Problem 3</h3>
+                            <p>Outline the third significant issue that your solution addresses. Detail how this problem affects the target audience and what's missing in current options.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitor Analysis Section -->
+    <section id="competitors" class="competitors section">
+        <div class="container">
+            <h2 class="section-title">Competitor Analysis</h2>
+            <p class="section-subtitle">Understanding the landscape to create something better</p>
+            <div class="competitor-grid">
+                <div class="competitor-card">
+                    <h3>Competitor 1</h3>
+                    <p>Analysis of first competitor, including their strengths and weaknesses. Highlight specific features and user experience aspects.</p>
+                    <div class="competitor-rating">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span style="color: var(--apple-gray);">★</span>
+                    </div>
+                </div>
+                <div class="competitor-card">
+                    <h3>Competitor 2</h3>
+                    <p>Detailed examination of second competitor, focusing on their approach to solving similar problems and where they excel or fall short.</p>
+                    <div class="competitor-rating">
+                        <span>★</span><span>★</span><span>★</span><span style="color: var(--apple-gray);">★</span><span style="color: var(--apple-gray);">★</span>
+                    </div>
+                </div>
+                <div class="competitor-card">
+                    <h3>Competitor 3</h3>
+                    <p>Comprehensive review of third competitor, analyzing their market position, user base, and how their solution compares to our approach.</p>
+                    <div class="competitor-rating">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span style="color: var(--apple-gray);">★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Interviews Section -->
+    <section id="interviews" class="interviews section">
+        <div class="container">
+            <h2 class="section-title">User Interviews</h2>
+            <p class="section-subtitle">Real insights from real people</p>
+            <div class="interview-container">
+                <div class="interview-quote">
+                    "I've tried several solutions for this problem, but none of them really understood my workflow. What I need is something that integrates seamlessly with my daily routine."
+                </div>
+                <p class="interview-source">- Sarah, Marketing Manager</p>
+                
+                <div class="interview-quote">
+                    "The biggest challenge I face is keeping track of everything in one place. I'm constantly switching between apps which wastes so much time."
+                </div>
+                <p class="interview-source">- Michael, Project Lead</p>
+                
+                <div class="interview-quote">
+                    "I need something that's powerful but doesn't require a learning curve. Most tools either sacrifice functionality for simplicity or become too complex to use efficiently."
+                </div>
+                <p class="interview-source">- Jamie, Freelance Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personas Section -->
+    <section id="personas" class="personas section">
+        <div class="container">
+            <h2 class="section-title">User Personas</h2>
+            <p class="section-subtitle">Understanding our target users</p>
+            <div class="persona-grid">
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <h3>Alex</h3>
+                        <p>Tech-Savvy Professional</p>
+                    </div>
+                    <div class="persona-body">
+                        <div class="persona-detail">
+                            <h4>Demographics</h4>
+                            <p>32 years old, Marketing Manager, Urban dweller</p>
+                        </div>
+                        <div class="persona-detail">
+                            <h4>Goals</h4>
+                            <p>Streamline workflow, integrate multiple tools, collaborate efficiently</p>
+                        </div>
+                        <div class="persona-detail">
+                            <h4>Pain Points</h4>
+                            <p>Too many separate tools, time wasted switching contexts, difficult to share work</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <h3>Jordan</h3>
+                        <p>Busy Creative</p>
+                    </div>
+                    <div class="persona-body">
+                        <div class="persona-detail">
+                            <h4>Demographics</h4>
+                            <p>28 years old, Freelance Designer, Works remotely</p>
+                        </div>
+                        <div class="persona-detail">
+                            <h4>Goals</h4>
+                            <p>Maintain creative flow, organize projects efficiently, track time accurately</p>
+                        </div>
+                        <div class="persona-detail">
+                            <h4>Pain Points</h4>
+                            <p>Complex interfaces interrupt creativity, difficult to manage multiple clients, lacks mobile support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <h3>Morgan</h3>
+                        <p>Team Lead</p>
+                    </div>
+                    <div class="persona-body">
+                        <div class="persona-detail">
+                            <h4>Demographics</h4>
+                            <p>41 years old, Project Manager, Suburban parent</p>
+                        </div>
+                        <div class="persona-detail">
+                            <h4>Goals</h4>
+                            <p>Track team progress, allocate resources effectively, maintain project transparency</p>
+                        </div>
+                        <div class="persona-detail">
+                            <h4>Pain Points</h4>
+                            <p>Difficult to get team-wide visibility, reporting is cumbersome, notification overload</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Low Fidelity Wireframes Section -->
+    <section id="wireframes-low" class="wireframes section">
+        <div class="container">
+            <h2 class="section-title">Low Fidelity Wireframes</h2>
+            <p class="section-subtitle">Early conceptual designs</p>
+            
+            <div class="slideshow-container" id="lowFiSlideshow">
+                <div class="slideshow-slide active">
+                    <img src="/api/placeholder/800/500" alt="Low fidelity wireframe 1" class="slideshow-img">
+                    <div class="slideshow-caption">Home Screen - Initial Layout</div>
+                </div>
+                <div class="slideshow-slide">
+                    <img src="/api/placeholder/800/500" alt="Low fidelity wireframe 2" class="slideshow-img">
+                    <div class="slideshow-caption">User Profile Flow</div>
+                </div>
+                <div class="slideshow-slide">
+                    <img src="/api/placeholder/800/500" alt="Low fidelity wireframe 3" class="slideshow-img">
+                    <div class="slideshow-caption">Task Management Interface</div>
+                </div>
+                <div class="slideshow-slide">
+                    <img src="/api/placeholder/800/500" alt="Low fidelity wireframe 4" class="slideshow-img">
+                    <div class="slideshow-caption">Settings and Preferences</div>
+                </div>
+                
+                <div class="slideshow-nav">
+                    <button class="slide-btn prev-btn" onclick="moveSlide(-1, 'lowFiSlideshow')">❮</button>
+                    <button class="slide-btn next-btn" onclick="moveSlide(1, 'lowFiSlideshow')">❯</button>
+                </div>
+                
+                <div class="slide-indicators" id="lowFiIndicators">
+                    <div class="slide-indicator active" onclick="goToSlide(0, 'lowFiSlideshow')"></div>
+                    <div class="slide-indicator" onclick="goToSlide(1, 'lowFiSlideshow')"></div>
+                    <div class="slide-indicator" onclick="goToSlide(2, 'lowFiSlideshow')"></div>
+                    <div class="slide-indicator" onclick="goToSlide(3, 'lowFiSlideshow')"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- High Fidelity Wireframes Section -->
+    <section id="wireframes-high" class="wireframes section" style="background-color: var(--apple-light-gray);">
+        <div class="container">
+            <h2 class="section-title">High Fidelity Wireframes</h2>
+            <p class="section-subtitle">Polished visual designs</p>
+            
+            <div class="slideshow-container" id="highFiSlideshow">
+                <div class="slideshow-slide active">
+                    <img src="/api/placeholder/800/500" alt="High fidelity wireframe 1" class="slideshow-img">
+                    <div class="slideshow-caption">Final Home Screen Design</div>
+                </div>
+                <div class="slideshow-slide">
+                    <img src="/api/placeholder/800/500" alt="High fidelity wireframe 2" class="slideshow-img">
+                    <div class="slideshow-caption">User Dashboard Interface</div>
+                </div>
+                <div class="slideshow-slide">
+                    <img src="/api/placeholder/800/500" alt="High fidelity wireframe 3" class="slideshow-img">
+                    <div class="slideshow-caption">Content Creation Flow</div>
+                </div>
+                <div class="slideshow-slide">
+                    <img src="/api/placeholder/800/500" alt="High fidelity wireframe 4" class="slideshow-img">
+                    <div class="slideshow-caption">Mobile Responsive Design</div>
+                </div>
+                
+                <div class="slideshow-nav">
+                    <button class="slide-btn prev-btn" onclick="moveSlide(-1, 'highFiSlideshow')">❮</button>
+                    <button class="slide-btn next-btn" onclick="moveSlide(1, 'highFiSlideshow')">❯</button>
+                </div>
+                
+                <div class="slide-indicators" id="highFiIndicators">
+                    <div class="slide-indicator active" onclick="goToSlide(0, 'highFiSlideshow')"></div>
+                    <div class="slide-indicator" onclick="goToSlide(1, 'highFiSlideshow')"></div>
+                    <div class="slide-indicator" onclick="goToSlide(2, 'highFiSlideshow')"></div>
+                    <div class="slide-indicator" onclick="goToSlide(3, 'highFiSlideshow')"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Tests Section -->
+    <section id="user-tests" class="user-tests section">
+        <div class="container">
+            <h2 class="section-title">User Tests Results</h2>
+            <p class="section-subtitle">Validation through user feedback</p>
+            
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">94%</div>
+                    <div class="stat-label">Task Completion Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.8/5</div>
+                    <div class="stat-label">Satisfaction Score</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">87%</div>
+                    <div class="stat-label">Prefer Over Competitors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">18s</div>
+                    <div class="stat-label">Average Task Time</div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 60px; text-align: center;">
+                <p style="max-width: 800px; margin: 0 auto; margin-bottom: 30px; font-size: 18px;">Our comprehensive user testing identified key areas of improvement and validated our design decisions. Users consistently rated our solution higher than competitors in terms of ease of use, visual appeal, and functionality.</p>
+                <a href="#" class="btn">View Detailed Report</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessibility Report Section -->
+    <section id="accessibility" class="accessibility section">
+        <div class="container">
+            <h2 class="section-title">Accessibility Report</h2>
+            <p class="section-subtitle">Ensuring our app works for everyone</p>
+            
+            <div class="accessibility-grid">
+                <div class="accessibility-card">
+                    <div class="accessibility-icon">👁️</div>
+                    <h3>Visual Accessibility</h3>
+                    <p>High contrast ratios, screen reader compatible, resizable text, and meaningful alt text for images.</p>
+                </div>
+                <div class="accessibility-card">
+                    <div class="accessibility-icon">⌨️</div>
+                    <h3>Keyboard Navigation</h3>
+                    <p>Full keyboard accessibility, visible focus states, and logical tab order throughout the application.</p>
+                </div>
+                <div class="accessibility-card">
+                    <div class="accessibility-icon">🔊</div>
+                    <h3>Audio Alternatives</h3>
+                    <p>Captions for video content, transcripts for audio, and visual notifications for audio alerts.</p>
+                </div>
+                <div class="accessibility-card">
+                    <div class="accessibility-icon">📱</div>
+                    <h3>Device Compatibility</h3>
+                    <p>Responsive design that works across all device sizes and orientations, from mobile to desktop.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <p style="font-size: 18px; max-width: 800px; margin: 0 auto 30px;">Our application meets WCAG 2.1 AA standards, ensuring an inclusive experience for all users regardless of ability.</p>
+                <a href="#" class="btn">Full Accessibility Documentation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusions Section -->
+    <section id="conclusions" class="conclusions section">
+        <div class="container">
+            <h2 class="section-title">Final Conclusions</h2>
+            <p class="section-subtitle">What we learned and what's next</p>
+            
+            <div class="conclusion-container">
+                <p>Through our research, design, and testing processes, we've created an application that effectively addresses the core user problems we identified. Our solution stands out in the market by focusing on [key differentiation] while maintaining a clean, intuitive interface.</p>
+                
+                <p>Key accomplishments include:</p>
+                <ul style="margin-left: 20px; margin-bottom: 20px;">
+                    <li>Simplified the [specific process] by reducing steps from [X] to [Y]</li>
+                    <li>Increased user engagement by implementing [specific feature]</li>
+                    <li>Created a unified experience across devices that maintains functionality</li>
+                    <li>Developed an accessible interface that works for users of all abilities</li>
+                </ul>
+                
+                <p>Looking forward, we plan to expand the application by:</p>
+                <ul style="margin-left: 20px; margin-bottom: 20px;">
+                    <li>Implementing [future feature 1] based on user feedback</li>
+                    <li>Exploring integration opportunities with [complementary services]</li>
+                    <li>Refining the [specific feature] to further improve user efficiency</li>
+                    <li>Expanding platform availability to [additional platforms]</li>
+                </ul>
+                
+                <p>This project has demonstrated the value of thorough user research and iterative design in creating solutions that truly meet user needs while exceeding market expectations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+        <div class="container">
+            <h2 class="section-title">Meet the Team</h2>
+            <p class="section-subtitle">The minds behind the project</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Team member 1" class="team-member-img">
+                    <h3>Your Name</h3>
+                    <p>Lead UX Designer</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">🌐</a>
+                        <a href="#" class="social-link">✉️</a>
+                        <a href="#" class="social-link">📱</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Team member 2" class="team-member-img">
+                    <h3>Team Member</h3>
+                    <p>UI Designer</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">🌐</a>
+                        <a href="#" class="social-link">✉️</a>
+                        <a href="#" class="social-link">📱</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Team member 3" class="team-member-img">
+                    <h3>Team Member</h3>
+                    <p>User Researcher</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">🌐</a>
+                        <a href="#" class="social-link">✉️</a>
+                        <a href="#" class="social-link">📱</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Team member 4" class="team-member-img">
+                    <h3>Team Member</h3>
+                    <p>Project Manager</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">🌐</a>
+                        <a href="#" class="social-link">✉️</a>
+                        <a href="#" class="social-link">📱</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2>Experience the App</h2>
+            <p>See how our solution transforms the way users interact with [problem domain]. This interactive demo showcases the core features and user flows.</p>
+            
+            <div class="demo-frame">
+                <div class="demo-screen">
+                    <img src="/api/placeholder/360/640" alt="App demo" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>AppName</h3>
+                <ul class="footer-links">
+                    <li><a href="#problem">Problem Statement</a></li>
+                    <li><a href="#competitors">Competitor Analysis</a></li>
+                    <li><a href="#interviews">User Interviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Research</h3>
+                <ul class="footer-links">
+                    <li><a href="#personas">Personas</a></li>
+                    <li><a href="#wireframes-low">Wireframes</a></li>
+                    <li><a href="#user-tests">User Tests</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Results</h3>
+                <ul class="footer-links">
+                    <li><a href="#accessibility">Accessibility</a></li>
+                    <li><a href="#conclusions">Conclusions</a></li>
+                    <li><a href="#demo">Demo</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="mailto:example@university.edu">Email Us</a></li>
+                    <li><a href="#">University Project Repository</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2025 UI/UX Capstone Project. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
